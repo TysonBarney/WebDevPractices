@@ -1,0 +1,162 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset="utf-8" >
+   <title>Blackstone Bistro: Pizza-on-Demand</title>
+   <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1>Blackstone Bistro | Pizza-on-Demand</h1>
+
+<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+
+<form action="pizza.php" method="post" name="OrderPizza" target="_blank">
+<fieldset>
+<legend>Your Information</legend>
+<ul>
+  <li>
+    <label for="name">Name:</label>
+    <input id="name" name="name" class="text" type="text">
+  </li>
+  <li>
+    <label for="address">Address:</label>
+    <input id="name" name="address" class="text" type="text">
+    </li>
+  <li>
+    <label for="telephone number">Telephone Number:</label>
+    <input id="name" name="telephone number" class="text" type="text">
+  </li>
+  <li>
+    <label for="email">Email:</label>
+    <input id="name" name="email" class="text" type="text">
+  </li>
+  <li>
+    <label for="delivery instructions">Delivery Instructions:</label>
+    <br>
+    <textarea rows="5" cols="50" id="name" name="delivery instructions" class="text" type="text" placeholder="No more than 400 characters long"></textarea>
+  </li>
+</ul>
+</fieldset>
+
+<h2>Design Your Dream Pizza:</h2>
+
+<fieldset>
+<legend>Pizza specs</legend>
+<fieldset>
+<legend>Crust <span id="perens">(Choose One)</span></legend>
+<ul>
+  <li>
+    <label for="classic white">Classic White:</label>
+    <input id="classic white" name="crust type" type="radio">
+  </li>
+  <li>
+    <label for="multigrain">Multigrain:</label>
+    <input id="multigrain" name="crust type" type="radio">
+  </li>
+  <li>
+    <label for="cheese-stuffed crust">Cheese-stuffed crust:</label>
+    <input id="cheese-stuffed crust" name="crust type" type="radio">
+  </li>
+  <li>
+    <label for="gluten-free">Gluten-free:</label>
+    <input id="gluten-free" name="crust type" type="radio">
+  </li>
+</ul>
+</fieldset>
+<fieldset>
+<legend><span id="perens">(Choose as many as you want)</span></legend>
+<ul>
+  <li>
+    <label for="red sauce">Red sauce:</label>
+    <input id="red sauce" name="toppings" class="choose one" type="checkbox">
+  </li>
+  <li>
+    <label for="white sauce">White sauce:</label>
+    <input id="white sauce" name="toppings" class="choose one" type="checkbox">
+  </li>
+  <li>
+    <label for="mozzarella cheese">Mozzarella Cheese:</label>
+    <input id="mozzarella cheese" name="toppings" class="choose one" type="checkbox">
+  </li>
+  <li>
+    <label for="pepperoni">Pepperoni:</label>
+    <input id="pepperoni" name="toppings" class="choose one" type="checkbox">
+  </li>
+  <li>
+    <label for="mushrooms">Mushrooms:</label>
+    <input id="mushrooms" name="toppings" class="choose one" type="checkbox">
+  </li>
+  <li>
+    <label for="peppers">Peppers:</label>
+    <input id="peppers" name="toppings" class="choose one" type="checkbox">
+  </li>
+  <li>
+    <label for="anchovies">Anchovies:</label>
+    <input id="anchovies" name="toppings" class="choose one" type="checkbox">
+  </li>
+</ul>
+</fieldset>
+<fieldset>
+<legend>Number</legend>
+<label for="pizzas">How many pizzas:</label>
+  <select name="pizzas" id="pizzas">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+    <option value="28">28</option>
+    <option value="29">29</option>
+    <option value="30">30</option>
+    <option value="31">31</option>
+    <option value="32">32</option>
+    <option value="33">33</option>
+    <option value="34">34</option>
+    <option value="35">35</option>
+    <option value="36">36</option>
+    <option value="37">37</option>
+    <option value="38">38</option>
+    <option value="39">39</option>
+    <option value="40">40</option>
+    <option value="41">41</option>
+    <option value="42">42</option>
+    <option value="43">43</option>
+    <option value="44">44</option>
+    <option value="45">45</option>
+    <option value="46">46</option>
+    <option value="47">47</option>
+    <option value="48">48</option>
+    <option value="49">49</option>
+    <option value="50">50</option>
+  </select>
+</fieldset>
+</fieldset>
+<input name="subButton" type="submit" value="Bring me a pizza!">
+<input name="resetButton" type="reset" value="reset">
+</form>
+</body>
+</html>
